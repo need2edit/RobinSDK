@@ -1,0 +1,1083 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Device.swift",
+      "line": null,
+      "symbol": "Device.Identifier",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Device.swift",
+      "line": 8,
+      "symbol": "Device.Identifier",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Device.swift",
+      "line": 18,
+      "symbol": "Device.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Device.swift",
+      "line": 21,
+      "symbol": "Device.account_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Device.swift",
+      "line": 24,
+      "symbol": "Device.device_manifest_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Device.swift",
+      "line": 27,
+      "symbol": "Device.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Device.swift",
+      "line": 30,
+      "symbol": "Device.last_reported_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Device.swift",
+      "line": 33,
+      "symbol": "Device.created_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Device.swift",
+      "line": 36,
+      "symbol": "Device.updated_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Event.swift",
+      "line": null,
+      "symbol": "Event.Identifier",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Event.swift",
+      "line": 9,
+      "symbol": "Event.Identifier",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Event.swift",
+      "line": 63,
+      "symbol": "Event.CreationType.synced",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Event.swift",
+      "line": 64,
+      "symbol": "Event.CreationType.manual",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Event.swift",
+      "line": 65,
+      "symbol": "Event.CreationType.automatic",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Event.swift",
+      "line": 74,
+      "symbol": "Event.Visibility",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Event.swift",
+      "line": 75,
+      "symbol": "Event.Visibility.default",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Event.swift",
+      "line": 76,
+      "symbol": "Event.Visibility.public",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Event.swift",
+      "line": 77,
+      "symbol": "Event.Visibility.private",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Event.swift",
+      "line": 78,
+      "symbol": "Event.Visibility.personal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Event.swift",
+      "line": 79,
+      "symbol": "Event.Visibility.confidential",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Event.swift",
+      "line": 110,
+      "symbol": "Event.==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/FreeBusy.swift",
+      "line": 3,
+      "symbol": "Busy",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/FreeBusy.swift",
+      "line": 4,
+      "symbol": "Busy.from",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/FreeBusy.swift",
+      "line": 5,
+      "symbol": "Busy.to",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/FreeBusy.swift",
+      "line": 6,
+      "symbol": "Busy.events",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/FreeBusy.swift",
+      "line": 9,
+      "symbol": "FreeBusy",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Location.swift",
+      "line": null,
+      "symbol": "Location.Identifier",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Location.swift",
+      "line": 11,
+      "symbol": "Location.Identifier",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Location.swift",
+      "line": 46,
+      "symbol": "Location.updated_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Location.swift",
+      "line": 47,
+      "symbol": "Location.created_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Organization.swift",
+      "line": null,
+      "symbol": "Organization",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Organization.swift",
+      "line": null,
+      "symbol": "Organization.Identifier",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Organization.swift",
+      "line": 3,
+      "symbol": "Organization",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Organization.swift",
+      "line": 5,
+      "symbol": "Organization.Identifier",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Organization.swift",
+      "line": 13,
+      "symbol": "Organization.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Organization.swift",
+      "line": 14,
+      "symbol": "Organization.is_organization",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Organization.swift",
+      "line": 15,
+      "symbol": "Organization.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Organization.swift",
+      "line": 16,
+      "symbol": "Organization.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Organization.swift",
+      "line": 17,
+      "symbol": "Organization.avatar",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Organization.swift",
+      "line": 19,
+      "symbol": "Organization.created_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Organization.swift",
+      "line": 20,
+      "symbol": "Organization.updated_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": null,
+      "symbol": "ChangeTrackingRecord",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": null,
+      "symbol": "Serializable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": 4,
+      "symbol": "Serializable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": 5,
+      "symbol": "Serializable.serialize()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": 9,
+      "symbol": "Serializable.serialize()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": 15,
+      "symbol": "Named",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": 16,
+      "symbol": "Named.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": 19,
+      "symbol": "RemoteIdentifiable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": 20,
+      "symbol": "RemoteIdentifiable.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": 23,
+      "symbol": "SlugRepresentable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": 24,
+      "symbol": "SlugRepresentable.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": 27,
+      "symbol": "AvatarRepresentable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": 28,
+      "symbol": "AvatarRepresentable.avatar",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": 37,
+      "symbol": "ImageRepresentable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": 38,
+      "symbol": "ImageRepresentable.image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": 41,
+      "symbol": "ChangeTrackingRecord",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": 42,
+      "symbol": "ChangeTrackingRecord.created_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Protocols.swift",
+      "line": 43,
+      "symbol": "ChangeTrackingRecord.updated_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 3,
+      "symbol": "HTTPMethod",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 4,
+      "symbol": "HTTPMethod.get",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 5,
+      "symbol": "HTTPMethod.patch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 6,
+      "symbol": "HTTPMethod.delete",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 7,
+      "symbol": "HTTPMethod.post",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 10,
+      "symbol": "RouteType",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 11,
+      "symbol": "RouteType.baseURL",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 12,
+      "symbol": "RouteType.path",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 13,
+      "symbol": "RouteType.method",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 16,
+      "symbol": "RobinSDK",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 18,
+      "symbol": "RobinSDK.token",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 20,
+      "symbol": "RobinSDK.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 24,
+      "symbol": "RobinSDK.baseURL",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 26,
+      "symbol": "RobinSDK.Route",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 28,
+      "symbol": "RobinSDK.Route.auth",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 30,
+      "symbol": "RobinSDK.Route.showOrganizations",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 31,
+      "symbol": "RobinSDK.Route.showOrganization",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 32,
+      "symbol": "RobinSDK.Route.showOrganizationLocations",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 33,
+      "symbol": "RobinSDK.Route.showOrganizationUsers",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 34,
+      "symbol": "RobinSDK.Route.showOrganizationUser",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 35,
+      "symbol": "RobinSDK.Route.showOrganizationAmenities",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 37,
+      "symbol": "RobinSDK.Route.showMe",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 38,
+      "symbol": "RobinSDK.Route.showMePresence",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 39,
+      "symbol": "RobinSDK.Route.showMeEvents",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 41,
+      "symbol": "RobinSDK.Route.showLocation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 42,
+      "symbol": "RobinSDK.Route.showLocationSpaces",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 43,
+      "symbol": "RobinSDK.Route.showLocationPresence",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 45,
+      "symbol": "RobinSDK.Route.showSpace",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 46,
+      "symbol": "RobinSDK.Route.showSpaceEvents",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 47,
+      "symbol": "RobinSDK.Route.showSpaceAmenities",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 48,
+      "symbol": "RobinSDK.Route.showSpacePresence",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 49,
+      "symbol": "RobinSDK.Route.showSpaceDevices",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 50,
+      "symbol": "RobinSDK.Route.showSpaceState",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 52,
+      "symbol": "RobinSDK.Route.showEvent",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 53,
+      "symbol": "RobinSDK.Route.showEventConfirmation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 55,
+      "symbol": "RobinSDK.Route.path",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 102,
+      "symbol": "RobinSDK.Route.baseURL",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/RobinSDK.swift",
+      "line": 106,
+      "symbol": "RobinSDK.Route.method",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/SampleJSON.swift",
+      "line": 3,
+      "symbol": "SampleJSON",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/SampleJSON.swift",
+      "line": 5,
+      "symbol": "SampleJSON.token",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/SampleJSON.swift",
+      "line": 22,
+      "symbol": "SampleJSON.device",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/SampleJSON.swift",
+      "line": 34,
+      "symbol": "SampleJSON.presence",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/SampleJSON.swift",
+      "line": 60,
+      "symbol": "SampleJSON.space",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/SampleJSON.swift",
+      "line": 78,
+      "symbol": "SampleJSON.user",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": null,
+      "symbol": "Space.Identifier",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 9,
+      "symbol": "Space.Identifier",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 41,
+      "symbol": "Space.SpaceType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 42,
+      "symbol": "Space.SpaceType.breakout",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 43,
+      "symbol": "Space.SpaceType.call",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 44,
+      "symbol": "Space.SpaceType.conference",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 45,
+      "symbol": "Space.SpaceType.meeting",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 46,
+      "symbol": "Space.SpaceType.kitchen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 47,
+      "symbol": "Space.SpaceType.work",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 48,
+      "symbol": "Space.SpaceType.office",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 49,
+      "symbol": "Space.SpaceType.lobby",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 50,
+      "symbol": "Space.SpaceType.lounge",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 51,
+      "symbol": "Space.SpaceType.utility",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 52,
+      "symbol": "Space.SpaceType.cafeteria",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 53,
+      "symbol": "Space.SpaceType.break_room",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 54,
+      "symbol": "Space.SpaceType.restroom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 55,
+      "symbol": "Space.SpaceType.restroom_male",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 56,
+      "symbol": "Space.SpaceType.restroom_female",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 57,
+      "symbol": "Space.SpaceType.theater",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 58,
+      "symbol": "Space.SpaceType.fitness",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 59,
+      "symbol": "Space.SpaceType.study_room",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 60,
+      "symbol": "Space.SpaceType.cafe",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 61,
+      "symbol": "Space.SpaceType.lactation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 62,
+      "symbol": "Space.SpaceType.parking",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 63,
+      "symbol": "Space.SpaceType.interview",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 64,
+      "symbol": "Space.SpaceType.studio",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 65,
+      "symbol": "Space.SpaceType.lab",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 66,
+      "symbol": "Space.SpaceType.classroom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 67,
+      "symbol": "Space.SpaceType.listening",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 68,
+      "symbol": "Space.SpaceType.project",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 69,
+      "symbol": "Space.SpaceType.event",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 84,
+      "symbol": "Space.location",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Space.swift",
+      "line": 94,
+      "symbol": "Space.==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Token.swift",
+      "line": null,
+      "symbol": "AuthToken",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Token.swift",
+      "line": 10,
+      "symbol": "AuthToken",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Token.swift",
+      "line": 11,
+      "symbol": "AuthToken.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Token.swift",
+      "line": 12,
+      "symbol": "AuthToken.token",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Token.swift",
+      "line": 13,
+      "symbol": "AuthToken.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Token.swift",
+      "line": 14,
+      "symbol": "AuthToken.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Token.swift",
+      "line": 15,
+      "symbol": "AuthToken.ip",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Token.swift",
+      "line": 16,
+      "symbol": "AuthToken.agent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Token.swift",
+      "line": 17,
+      "symbol": "AuthToken.scopes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Token.swift",
+      "line": 18,
+      "symbol": "AuthToken.expire_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/Token.swift",
+      "line": 19,
+      "symbol": "AuthToken.created_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/URL.swift",
+      "line": 11,
+      "symbol": "URL.init(route:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/User.swift",
+      "line": null,
+      "symbol": "Email",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/User.swift",
+      "line": null,
+      "symbol": "User.Identifier",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/User.swift",
+      "line": 3,
+      "symbol": "Email",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/User.swift",
+      "line": 18,
+      "symbol": "User.Identifier",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/User.swift",
+      "line": 41,
+      "symbol": "User.created_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Desktop/robin/RobinSDK/Sources/RobinSDK/User.swift",
+      "line": 42,
+      "symbol": "User.updated_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/jyo/Desktop/robin/RobinSDK"
+}

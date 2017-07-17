@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Route Enum Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../js/jquery.min.js" defer></script>
+    <script src="../../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Enum/Route" class="dashAnchor"></a>
+    <a title="Route Enum Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../index.html">RobinSDK Docs</a> (40% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../index.html">RobinSDK Reference</a>
+        <img id="carat" src="../../img/carat.png" />
+        Route Enum Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Classes/RobinSDK.html">RobinSDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/RobinSDK/Route.html">– Route</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Enums/HTTPMethod.html">HTTPMethod</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Extensions/URL.html">URL</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Protocols/AvatarRepresentable.html">AvatarRepresentable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/ChangeTrackingRecord.html">ChangeTrackingRecord</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/ImageRepresentable.html">ImageRepresentable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/Named.html">Named</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/RemoteIdentifiable.html">RemoteIdentifiable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/RouteType.html">RouteType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/Serializable.html">Serializable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/SlugRepresentable.html">SlugRepresentable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Structs/AuthToken.html">AuthToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Busy.html">Busy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Device.html">Device</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Device/Identifier.html">– Identifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Email.html">Email</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Event.html">Event</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Event/Identifier.html">– Identifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Event/CreationType.html">– CreationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Event/Visibility.html">– Visibility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs.html#/s:V8RobinSDK8FreeBusy">FreeBusy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Location.html">Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Location/Identifier.html">– Identifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Organization.html">Organization</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Organization/Identifier.html">– Identifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Presence.html">Presence</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/SampleJSON.html">SampleJSON</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Space.html">Space</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Space/Identifier.html">– Identifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Space/SpaceType.html">– SpaceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/User/Identifier.html">– Identifier</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Route</h1>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route4authFMS1_S1_"></a>
+                    <a name="//apple_ref/swift/Element/auth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route4authFMS1_S1_">auth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route17showOrganizationsFMS1_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showOrganizations" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route17showOrganizationsFMS1_S1_">showOrganizations</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route16showOrganizationFMS1_FT2idSi_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showOrganization" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route16showOrganizationFMS1_FT2idSi_S1_">showOrganization</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route25showOrganizationLocationsFMS1_FT2idSi_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showOrganizationLocations" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route25showOrganizationLocationsFMS1_FT2idSi_S1_">showOrganizationLocations</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route21showOrganizationUsersFMS1_FT2idSi_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showOrganizationUsers" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route21showOrganizationUsersFMS1_FT2idSi_S1_">showOrganizationUsers</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route20showOrganizationUserFMS1_FT2idSi6userIdSi_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showOrganizationUser" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route20showOrganizationUserFMS1_FT2idSi6userIdSi_S1_">showOrganizationUser</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route25showOrganizationAmenitiesFMS1_FT2idSi_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showOrganizationAmenities" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route25showOrganizationAmenitiesFMS1_FT2idSi_S1_">showOrganizationAmenities</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route6showMeFMS1_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showMe" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route6showMeFMS1_S1_">showMe</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route14showMePresenceFMS1_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showMePresence" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route14showMePresenceFMS1_S1_">showMePresence</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route12showMeEventsFMS1_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showMeEvents" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route12showMeEventsFMS1_S1_">showMeEvents</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route12showLocationFMS1_FT2idSi_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showLocation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route12showLocationFMS1_FT2idSi_S1_">showLocation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route18showLocationSpacesFMS1_FT2idSi_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showLocationSpaces" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route18showLocationSpacesFMS1_FT2idSi_S1_">showLocationSpaces</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route20showLocationPresenceFMS1_FT2idSi_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showLocationPresence" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route20showLocationPresenceFMS1_FT2idSi_S1_">showLocationPresence</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route9showSpaceFMS1_FT2idSi_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showSpace" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route9showSpaceFMS1_FT2idSi_S1_">showSpace</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route15showSpaceEventsFMS1_FT2idSi_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showSpaceEvents" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route15showSpaceEventsFMS1_FT2idSi_S1_">showSpaceEvents</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route18showSpaceAmenitiesFMS1_FT2idSi_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showSpaceAmenities" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route18showSpaceAmenitiesFMS1_FT2idSi_S1_">showSpaceAmenities</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route17showSpacePresenceFMS1_FT2idSi_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showSpacePresence" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route17showSpacePresenceFMS1_FT2idSi_S1_">showSpacePresence</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route16showSpaceDevicesFMS1_FT2idSi_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showSpaceDevices" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route16showSpaceDevicesFMS1_FT2idSi_S1_">showSpaceDevices</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route14showSpaceStateFMS1_FT2idSi_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showSpaceState" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route14showSpaceStateFMS1_FT2idSi_S1_">showSpaceState</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route9showEventFMS1_FT2idSi_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showEvent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route9showEventFMS1_FT2idSi_S1_">showEvent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC8RobinSDK8RobinSDK5Route21showEventConfirmationFMS1_FT2idSi_S1_"></a>
+                    <a name="//apple_ref/swift/Element/showEventConfirmation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC8RobinSDK8RobinSDK5Route21showEventConfirmationFMS1_FT2idSi_S1_">showEventConfirmation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vOC8RobinSDK8RobinSDK5Route4pathSS"></a>
+                    <a name="//apple_ref/swift/Property/path" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vOC8RobinSDK8RobinSDK5Route4pathSS">path</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vOC8RobinSDK8RobinSDK5Route7baseURLV10Foundation3URL"></a>
+                    <a name="//apple_ref/swift/Property/baseURL" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vOC8RobinSDK8RobinSDK5Route7baseURLV10Foundation3URL">baseURL</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vOC8RobinSDK8RobinSDK5Route6methodOS_10HTTPMethod"></a>
+                    <a name="//apple_ref/swift/Property/method" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vOC8RobinSDK8RobinSDK5Route6methodOS_10HTTPMethod">method</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="https://github.com/need2edit" target="_blank" rel="external">Jake Young</a>. All rights reserved. (Last updated: 2017-07-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

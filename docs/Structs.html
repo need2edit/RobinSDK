@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Structs  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="Structs  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">RobinSDK Docs</a> (40% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">RobinSDK Reference</a>
+        <img id="carat" src="img/carat.png" />
+        Structs  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/RobinSDK.html">RobinSDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/RobinSDK/Route.html">– Route</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/HTTPMethod.html">HTTPMethod</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/URL.html">URL</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/AvatarRepresentable.html">AvatarRepresentable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ChangeTrackingRecord.html">ChangeTrackingRecord</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ImageRepresentable.html">ImageRepresentable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Named.html">Named</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/RemoteIdentifiable.html">RemoteIdentifiable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/RouteType.html">RouteType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Serializable.html">Serializable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SlugRepresentable.html">SlugRepresentable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/AuthToken.html">AuthToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Busy.html">Busy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Device.html">Device</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Device/Identifier.html">– Identifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Email.html">Email</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Event.html">Event</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Event/Identifier.html">– Identifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Event/CreationType.html">– CreationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Event/Visibility.html">– Visibility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs.html#/s:V8RobinSDK8FreeBusy">FreeBusy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Location.html">Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Location/Identifier.html">– Identifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Organization.html">Organization</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Organization/Identifier.html">– Identifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Presence.html">Presence</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SampleJSON.html">SampleJSON</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Space.html">Space</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Space/Identifier.html">– Identifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Space/SpaceType.html">– SpaceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/User/Identifier.html">– Identifier</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Structs</h1>
+            <p>The following structs are available globally.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:V8RobinSDK6Device"></a>
+                    <a name="//apple_ref/swift/Struct/Device" class="dashAnchor"></a>
+                    <a class="token" href="#/s:V8RobinSDK6Device">Device</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A piece of hardware that may exist in a space.</p>
+
+<p>A device resource represents a piece of hardware that may exist in a space. Devices can report such as temperature or presence, but may also expose features that may be controlled, such as AV hardware or a thermostat. Common devices include beacons, phones, and motion sensors.</p>
+
+                        <a href="Structs/Device.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Device</span><span class="p">:</span> <span class="kt"><a href="Protocols/Serializable.html">Serializable</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/Named.html">Named</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/ChangeTrackingRecord.html">ChangeTrackingRecord</a></span><span class="p">,</span> <span class="kt">Comparable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:V8RobinSDK5Event"></a>
+                    <a name="//apple_ref/swift/Struct/Event" class="dashAnchor"></a>
+                    <a class="token" href="#/s:V8RobinSDK5Event">Event</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A meeting or reservation, booked in a space.</p>
+
+<p>Events are often synchronized from an external calendar service, such as Google Calendar or Office 365.
+Events may also be created by booking a Space through Robin.</p>
+
+                        <a href="Structs/Event.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Event</span><span class="p">:</span> <span class="kt"><a href="Protocols/Serializable.html">Serializable</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:V8RobinSDK4Busy"></a>
+                    <a name="//apple_ref/swift/Struct/Busy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:V8RobinSDK4Busy">Busy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/Busy.html" class="slightly-smaller">See more</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:V8RobinSDK8FreeBusy"></a>
+                    <a name="//apple_ref/swift/Struct/FreeBusy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:V8RobinSDK8FreeBusy">FreeBusy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:V8RobinSDK8Location"></a>
+                    <a name="//apple_ref/swift/Struct/Location" class="dashAnchor"></a>
+                    <a class="token" href="#/s:V8RobinSDK8Location">Location</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A collection of spaces. Most commonly a building or floor.</p>
+
+<p>Physically speaking, a location is typically an office or a building and can be associated to a specific physical address.</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    Locations should exist on a map. Locations that do not adhere to this constraint by containing spaces that belong to different (or non-existent) geographical locations may be subject to removal.
+
+</div>
+
+                        <a href="Structs/Location.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Location</span><span class="p">:</span> <span class="kt"><a href="Protocols/Serializable.html">Serializable</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/ImageRepresentable.html">ImageRepresentable</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/ChangeTrackingRecord.html">ChangeTrackingRecord</a></span><span class="p">,</span> <span class="kt">LocationRepresentable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:V8RobinSDK12Organization"></a>
+                    <a name="//apple_ref/swift/Struct/Organization" class="dashAnchor"></a>
+                    <a class="token" href="#/s:V8RobinSDK12Organization">Organization</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/Organization.html" class="slightly-smaller">See more</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:V8RobinSDK8Presence"></a>
+                    <a name="//apple_ref/swift/Struct/Presence" class="dashAnchor"></a>
+                    <a class="token" href="#/s:V8RobinSDK8Presence">Presence</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A presence object may be associated with a user resource directly, or with a device. If presence is associated to a device, that typically indicates that a person is sensed but cannot be identified. This is common when detecting presence using devices such as IR sensors.</p>
+
+<p>Upon creation, the arrived_at attribute is initialized to the current time and the expired_at value is set to the TTL (time to live) added to the current time.</p>
+
+<p>Each time presence is posted for a user or device that already has an active presence session (a session in the same space that hasn&rsquo;t expired) than the active session will be lengthened by the provided TTL. Otherwise a new presence session is created.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <em>Keep your presence TTL short.</em> The maximum allowed TTL is 20 minutes, however for the best results we recommend using a value less than 5 minutes. In the future we may reduce the maximum allowed TTL.
+
+</div>
+
+                        <a href="Structs/Presence.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Presence</span><span class="p">:</span> <span class="kt"><a href="Protocols/Serializable.html">Serializable</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:V8RobinSDK10SampleJSON"></a>
+                    <a name="//apple_ref/swift/Struct/SampleJSON" class="dashAnchor"></a>
+                    <a class="token" href="#/s:V8RobinSDK10SampleJSON">SampleJSON</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/SampleJSON.html" class="slightly-smaller">See more</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:V8RobinSDK5Space"></a>
+                    <a name="//apple_ref/swift/Struct/Space" class="dashAnchor"></a>
+                    <a class="token" href="#/s:V8RobinSDK5Space">Space</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A room or area in a location.</p>
+
+<p>Common examples include a <q>Conference Room</q> or <q>Lobby</q>. Spaces are an important resource in that they are the parent model devices, presence and events. The space model contains references to the current and next events if they exist, as well as its parent location].</p>
+
+                        <a href="Structs/Space.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Space</span><span class="p">:</span> <span class="kt"><a href="Protocols/Serializable.html">Serializable</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/ImageRepresentable.html">ImageRepresentable</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:V8RobinSDK9AuthToken"></a>
+                    <a name="//apple_ref/swift/Struct/AuthToken" class="dashAnchor"></a>
+                    <a class="token" href="#/s:V8RobinSDK9AuthToken">AuthToken</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/AuthToken.html" class="slightly-smaller">See more</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:V8RobinSDK5Email"></a>
+                    <a name="//apple_ref/swift/Struct/Email" class="dashAnchor"></a>
+                    <a class="token" href="#/s:V8RobinSDK5Email">Email</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/Email.html" class="slightly-smaller">See more</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:V8RobinSDK4User"></a>
+                    <a name="//apple_ref/swift/Struct/User" class="dashAnchor"></a>
+                    <a class="token" href="#/s:V8RobinSDK4User">User</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An account that belongs to a physical person.</p>
+
+                        <a href="Structs/User.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">User</span><span class="p">:</span> <span class="kt"><a href="Protocols/Serializable.html">Serializable</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/RemoteIdentifiable.html">RemoteIdentifiable</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/Named.html">Named</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/ChangeTrackingRecord.html">ChangeTrackingRecord</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/SlugRepresentable.html">SlugRepresentable</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/AvatarRepresentable.html">AvatarRepresentable</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="https://github.com/need2edit" target="_blank" rel="external">Jake Young</a>. All rights reserved. (Last updated: 2017-07-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
