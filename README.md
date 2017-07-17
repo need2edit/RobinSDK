@@ -44,10 +44,10 @@ Most objects conform to `equatable` & `comparable` protocols.
 # TODO List
 If you want to help submit a PR!
 
-[ ] Cocoapods Support
-[ ] Carthage Support
-[ ] A working iOS Example
-[ ] A working MacOS Example
-[ ] A working Server App Example
-[ ] More Tests!
-[ ] Interactive Playground
+- [ ] Cocoapods Support
+- [ ] Carthage Support
+- [ ] A working iOS Example
+- [ ] A working MacOS Example
+- [ ] A working Server App Example
+- [ ] More Tests!
+- [ ] Interactive Playground
