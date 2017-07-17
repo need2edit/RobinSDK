@@ -22,12 +22,12 @@ let package = Package(
 This is a proof of concept to play around with some server side Swift frameworks (Vapor, Pefect) and make it easier to interact with Robin objects. I promise nothing.
 
 Because this is an experiment...
-* There is no web service component 😔. Take your pick from the wonderful folks over at Alamofire, Vapor, Perfect, etc.
+* There is no web service component 😔. Take your pick from the wonderful folks over at Alamofire, Vapor, Perfect, etc. this is just for working with the model objects.
 * It's read or "GET" requests only right now. CRUD functions might happen in the future, but no plans to add it this year.
 
 ## Goals
 - Make it easy to work with the model objects produced by the Robin API
-- Provide a type safe interface for working with Robin objects, especially where "id" is just an integer.
+- Provide a type safe interface for working with Robin objects, especially where "id" is just an integer
 
 # Design Considerations
 

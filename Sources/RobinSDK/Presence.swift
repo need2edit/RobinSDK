@@ -17,13 +17,13 @@ public struct Presence: Serializable {
     public let location_id: Location.Identifier
     
     /// The ID of the space where the presence was detected or null if the presence exists at the location (not space) level.
-    public let space_id: Int
+    public let space_id: Space.Identifier
     
     /// The ID of the user, or null if the presence is associated only to a device.
-    public let user_id: Int
+    public let user_id: User.Identifier?
     
     /// The ID of the device, or null if the presence is associated only to a user.
-    public let device_id: Device.Identifier
+    public let device_id: Device.Identifier?
     
     /// The date and time when the presence was last seen, represented as an ISO-8601 date.
     public let last_seen_at: Date
@@ -38,8 +38,8 @@ public struct Presence: Serializable {
     public let session_active: Bool
     
     /// The user resource, if the presence is associated to a user.
-    public let user: User
+    public let user: User?
     
     /// The Device resource, if the presence is associated to a device.
-    public let device: Device
+    public let device: Device?
 }

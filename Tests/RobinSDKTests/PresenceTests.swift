@@ -27,15 +27,16 @@ class PresenceTests: XCTestCase {
         let email = Email(email: "brian@robinpowered.com", is_verified: false)
         
         XCTAssertEqual(item.location_id, Location.Identifier(rawValue: 1))
-        XCTAssertEqual(item.space_id, 1)
-        XCTAssertEqual(item.user_id, 4)
+        XCTAssertEqual(item.space_id, Space.Identifier(rawValue: 1))
+        XCTAssertEqual(item.user_id, User.Identifier(rawValue: 4))
         XCTAssertEqual(item.device_id, Device.Identifier(rawValue: 2))
+
+        XCTAssertNotNil(item.user)
+        XCTAssertEqual(item.user!.id, 1)
+        XCTAssertEqual(item.user!.name, "Brian")
+        XCTAssertEqual(item.user!.slug, "brian")
         
-        XCTAssertEqual(item.user.id, 1)
-        XCTAssertEqual(item.user.name, "Brian")
-        XCTAssertEqual(item.user.slug, "brian")
-        
-        XCTAssertEqual(item.user.primary_email, email)
+        XCTAssertEqual(item.user!.primary_email, email)
         
         XCTAssertEqual(item.session_active, true)
     }
