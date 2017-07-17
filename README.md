@@ -32,7 +32,11 @@ Because this is an experiment...
 # Design Considerations
 
 ### Type Safe Identifiers
-Instead of an Integer as an identifier on objects, the **id** property on objects used for uniqueness is wrapped in its own stuct. It will behave the same way as an Int in almost all cases, but gives us some extra type safety when using it in more complex situations. For example, you can't accidentally feed in a Device Identifer where the system is expecting an Event identifier.
+Instead of an Integer as an identifier on objects, the **id** property on objects used for uniqueness is wrapped in its own struct. It will behave the same way as an Int in almost all cases, but gives us some extra type safety when using it in more complex situations. For example, you can't accidentally feed in a Device Identifer where the system is expecting an Event identifier.
+```
+// Event.Identifier
+let event_id = Event.Identifier(rawValue: 123)
+```
 
 ### Equatability & Sorting
 Most objects conform to `equatable` & `comparable` protocols.
