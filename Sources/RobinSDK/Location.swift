@@ -6,9 +6,9 @@ import Foundation
 /// Physically speaking, a location is typically an office or a building and can be associated to a specific physical address.
 ///
 /// - warning: Locations should exist on a map. Locations that do not adhere to this constraint by containing spaces that belong to different (or non-existent) geographical locations may be subject to removal.
-public struct Location: Serializable, ImageRepresentable {
+public struct Location: Serializable, ImageRepresentable, ChangeTrackingRecord, LocationRepresentable {
 
-    public struct Identifier: RawRepresentable, Hashable, Equatable, Codable {
+    public struct Identifier: RawRepresentable, Hashable, Equatable, Codable, Comparable {
         public var hashValue: Int {
             return rawValue.hashValue
         }
@@ -50,6 +50,9 @@ public struct Location: Serializable, ImageRepresentable {
 extension Location.Identifier {
     static public func ==(lhs: Location.Identifier, rhs: Location.Identifier) -> Bool {
         return lhs.rawValue == rhs.rawValue
+    }
+    static public func <(lhs: Location.Identifier, rhs: Location.Identifier) -> Bool {
+        return lhs.rawValue < rhs.rawValue
     }
 }
 

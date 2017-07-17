@@ -18,7 +18,7 @@ public struct Space: Serializable, ImageRepresentable {
     public var id: Identifier
     
     /// The ID of the location
-    public let location_id: Int
+    public let location_id: Location.Identifier
     
     /// The ID of the level
     public let level_id: Int

@@ -3,9 +3,10 @@ import Foundation
 /// A piece of hardware that may exist in a space.
 ///
 /// A device resource represents a piece of hardware that may exist in a space. Devices can report such as temperature or presence, but may also expose features that may be controlled, such as AV hardware or a thermostat. Common devices include beacons, phones, and motion sensors.
-public struct Device: Serializable, Named, ChangeTrackingRecord {
+public struct Device: Serializable, Named, ChangeTrackingRecord, Comparable {
 
-    public struct Identifier: RawRepresentable, Hashable, Equatable, Codable {
+    public struct Identifier: RawRepresentable, Hashable, Equatable, Codable, Comparable {
+
         public var hashValue: Int {
             return rawValue.hashValue
         }
@@ -36,14 +37,22 @@ public struct Device: Serializable, Named, ChangeTrackingRecord {
 }
 
 extension Device.Identifier {
+
     static public func ==(lhs: Device.Identifier, rhs: Device.Identifier) -> Bool {
         return lhs.rawValue == rhs.rawValue
+    }
+
+    public static func <(lhs: Device.Identifier, rhs: Device.Identifier) -> Bool {
+        return lhs.rawValue < rhs.rawValue
     }
 }
 
 extension Device {
     static public func ==(lhs: Device, rhs: Device) -> Bool {
         return lhs.id == rhs.id
+    }
+    public static func <(lhs: Device, rhs: Device) -> Bool {
+        return lhs.created_at < rhs.created_at
     }
 }
 

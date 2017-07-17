@@ -6,7 +6,7 @@ import Foundation
 /// Events may also be created by booking a Space through Robin.
 public struct Event: Serializable {
 
-    public struct Identifier: RawRepresentable, Hashable, Equatable, Codable {
+    public struct Identifier: RawRepresentable, Hashable, Equatable, Codable, Comparable {
         public var hashValue: Int {
             return rawValue.hashValue
         }
@@ -100,6 +100,9 @@ public struct Event: Serializable {
 extension Event.Identifier {
     static public func ==(lhs: Event.Identifier, rhs: Event.Identifier) -> Bool {
         return lhs.rawValue == rhs.rawValue
+    }
+    public static func <(lhs: Event.Identifier, rhs: Event.Identifier) -> Bool {
+        return lhs.rawValue < rhs.rawValue
     }
 }
 

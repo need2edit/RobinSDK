@@ -38,7 +38,18 @@ public protocol ImageRepresentable {
     var image: URL { get }
 }
 
-public protocol ChangeTrackingRecord {
+public protocol ChangeTrackingRecord: Comparable {
     var created_at: Date { get }
     var updated_at: Date { get }
+}
+
+extension ChangeTrackingRecord {
+    static public func <(lhs: Self, rhs: Self) -> Bool {
+        return lhs.created_at < rhs.created_at
+    }
+}
+
+protocol LocationRepresentable {
+    var latitude: Float { get }
+    var longitude: Float { get }
 }
